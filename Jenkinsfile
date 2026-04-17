@@ -10,9 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 
-                    url: 'https://github.com/CyberBrain18/test2.git', 
-                    branch: 'master'
+                git url: 'https://github.com/CyberBrain18/test2.git', branch: 'master'
             }
         }
 
