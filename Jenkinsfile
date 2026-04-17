@@ -22,7 +22,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                sh 'sudo cp target/MymavenWebApp.war /opt/tomcat/webapps'
+                sh 'sudo cp target/MymavenWebApp.war /opt/tomcat/webapps/MavenwebApp'
             }
         }
     }
